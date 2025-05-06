@@ -131,7 +131,7 @@ body {
 
 .half-backgroundACT4 {
     height: 45vh;
-    background: url('IMAGES/baguio.jpeg') no-repeat center center/cover;
+    background: url('../IMAGES/baguio.jpeg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,7 +198,7 @@ body {
 
 .half-backgroundACT3 {
     height: 45vh;
-    background: url(IMAGES/Strawberry.png) no-repeat center center/cover;
+    background: url(../IMAGES/Strawberry.png) no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,7 +230,7 @@ body {
 
 .half-backgroundACT2 {
     height: 45vh;
-    background: url('IMAGES/Country\ Club.jfif') no-repeat center center/cover;
+    background: url('../IMAGES/Country\ Club.jfif') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
