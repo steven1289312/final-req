@@ -1,0 +1,550 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    overflow-x: hidden;
+    background-color: #f8f9fa;
+}
+
+
+      
+            .events-carousel-container {
+                text-align: center;
+                padding: 50px 5%;
+                background: #1a1a1a;
+                color: white;
+            }
+    
+            .events-carousel h2 {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+    
+            .events-carousel {
+                position: relative;
+                max-width: 90%;
+                margin: auto;
+                overflow: hidden;
+            }
+    
+            .carousel-track {
+                display: flex;
+                gap: 20px;
+                transition: transform 0.5s ease-in-out;
+                width: 100%;
+            }
+    
+            .event-card {
+                min-width: 300px;
+                background: #222;
+                border-radius: 15px;
+                overflow: hidden;
+                text-align: center;
+                box-shadow: 0 5px 15px rgba(0, 255, 255, 0.3);
+            }
+    
+            .event-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-bottom: 3px solid cyan;
+            }
+    
+            .event-info {
+                padding: 15px;
+            }
+    
+            .event-info h3 {
+                font-size: 22px;
+                color: cyan;
+                margin-bottom: 10px;
+            }
+    
+            .event-info p {
+                font-size: 16px;
+                opacity: 0.8;
+            }
+    
+            .carousel-prev, .carousel-next {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background: rgba(0, 255, 255, 0.7);
+                color: black;
+                border: none;
+                padding: 10px 15px;
+                font-size: 20px;
+                cursor: pointer;
+                border-radius: 50%;
+            }
+    
+            .carousel-prev {
+                left: 0;
+            }
+    
+            .carousel-next {
+                right: 0;
+            }
+    
+            .carousel-prev:hover, .carousel-next:hover {
+                background: cyan;
+            }
+       
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 50, 0, 0.8);
+    padding: 8px 5%;
+    width: 90%;
+    z-index: 1000; /* Keeps navbar above other content */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.baguio-logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.half-backgroundACT4 {
+    height: 45vh;
+    background: url('../IMAGES/baguio.jpeg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.half-backgroundACT4 h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgba(0, 50, 0, 0.5);
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+
+.content-container {
+    padding: 50px 10%;
+    text-align: center;
+    color: black;
+}
+
+.content-container h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.section img {
+    width: 80%;
+    height: 700px;
+    border-radius: 60px;
+}
+
+.image-caption {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.text-container {
+    width: 55%;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(0, 50, 0, 1);
+    padding: 10px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.half-backgroundACT3 {
+    height: 45vh;
+    background: url(../IMAGES/Strawberry.png) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.half-backgroundACT3 h1 {
+    font-size: 60px;
+    font-weight: bold;
+    background: rgba(0, 50, 0, 0.7);
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.food-item img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.half-backgroundACT2 {
+    height: 45vh;
+    background: url('../IMAGES/Country\ Club.jfif') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.half-backgroundACT2 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    background: rgba(0, 50, 0, 0.7);
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.content-containerACT2 {
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.spot-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.spot-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.spot {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.spot:hover {
+    transform: scale(1.05);
+}
+
+.spot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.spot:hover img {
+    transform: scale(1.1);
+}
+
+.spot .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 50, 0, 0.9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.spot:hover .info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.info p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .half-backgroundACT4 h1,
+    .half-backgroundACT3 h1,
+    .half-backgroundACT2 h1 {
+        font-size: 40px;
+        padding: 10px 15px;
+    }
+
+    .content-container h2 {
+        font-size: 32px;
+    }
+
+    .section,
+    .food-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section img,
+    .food-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .text-container {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .spot-container {
+        max-width: 90%;
+    }
+
+    .spot {
+        height: 250px;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .logo-container img {
+        width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .half-backgroundACT4 h1,
+    .half-backgroundACT3 h1,
+    .half-backgroundACT2 h1 {
+        font-size: 30px;
+    }
+
+    .content-container {
+        padding: 30px 5%;
+    }
+
+    .content-container h2 {
+        font-size: 26px;
+    }
+
+    .text-container {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .spot {
+        height: 200px;
+    }
+
+    .info h2 {
+        font-size: 18px;
+    }
+
+    .info p {
+        font-size: 12px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    overflow-x: hidden;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 50, 0, 0.8);
+    padding: 8px 5%;
+    width: 90%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Keeps navbar above other content */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.baguio-logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.contact-form-container {
+    padding: 80px 10% 50px; /* Added top padding to prevent the form from hiding behind navbar */
+    text-align: center;
+    color: black;
+    margin-top: 80px; /* Increased space to accommodate the navbar height */
+}
+
+
+.contact-form-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.contact-form-container label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-form-container input, .contact-form-container textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form-container button {
+    background-color: #008000;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form-container button:hover {
+    background-color: #006400;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(0, 50, 0, 1);
+    padding: 10px 0;
+    font-size: 14px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps footer at the bottom */
+}
+
+
+
+.footer {
+    text-align: center;
+    background-color: rgba(0, 50, 0, 1);
+    padding: 10px 0;
+    font-size: 14px;
+    color: white;
+}
+
